@@ -1,2 +1,65 @@
 # SITE-VOID-INSTALLER-LE-FICHIER
 VOID.SITE
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>VOID - Téléchargement</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0f172a;
+            font-family: Arial;
+            color: white;
+        }
+
+        .box {
+            background: #1e293b;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.3);
+        }
+
+        .title {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            letter-spacing: 3px;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #22c55e;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        a.button:hover {
+            background: #16a34a;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="title">VOID</div>
+        <p>📦 Télécharger le fichier</p>
+
+        <a class="button" href="https://r2.ploosh.dev/21.00.zip">
+            ⬇️ Télécharger
+        </a>
+    </div>
+
+</body>
+</html>
